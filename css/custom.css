@@ -1,0 +1,184 @@
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}
+.parallax-container {
+    height: 400px
+}
+
+/*Logo*/
+.logo_text {font-size: 0; margin: 0;}
+.logo_img {width: 100px; margin-top: 15px;}
+
+/*Rodapé*/
+.rodape {
+  background-color: black; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  padding: 30px 0;
+}
+
+/*Escondendo botão*/
+.tim button{
+  border: 0;
+  padding: 0;
+  display: inline;
+  background: none;
+  text-decoration: underline;
+  color: black;
+}
+button:hover {
+  cursor: pointer;
+}
+
+/*Plano de fundo das páginas do site*/
+.fundo{        
+  background-image: url('../img/escheresque.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 4% 4%;
+}
+
+/*Plano de fundo area ADM e USER*/
+.fundoADM {
+  background-image: url('../img/email-pattern.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/*Indicador slider*/
+.slider .indicators .indicator-item {
+  background-color: #000000;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffd600;
+}
+
+/*Tabs página clientes*/
+.tabs .tab a {
+  color: rgb(0, 0, 0);
+}
+.tabs .indicator {
+  background-color: #ffd600;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #ffd600;
+}
+
+/*Pagina inicical Artigos*/
+img.responsive-img, video.responsive-video {
+  height: 220px;
+}
+
+/*Dropdown redes sociais*/
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #ffd600;
+}
+
+/*Filtro blur sliders*/
+.filter {   
+  -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
+  backdrop-filter: blur(10px); /* Chrome and Opera */
+  background-color: rgba(255, 255, 255, 0.25);
+  padding-right: 15px;
+  padding-left: 15px
+}
+
+/*Botões administrador*/
+.btn, .btn-large {
+  color: #fff;
+  background-color: #000000;
+}
+.btn:hover, .btn-large:hover {
+  background-color: #000000;
+}
+
+/*Estrutura modal Administrador*/
+.modal {
+  padding-top: 20px;
+}
+
+/*Alinhamento pag. sobre/áreas de atuação ADM*/
+.alinhamento {
+  padding-top: 5rem;
+}
+
+/*Alinhamento pag. sobre/áreas de atuação/contato do Site*/
+.alinhamentoTop {
+    padding-top: 2rem;
+}
+
+/*Alinhamento pag. login do Site*/
+.loginPading{
+  padding-top: 8.76rem;
+}
+
+/*Card-panel pagina home*/
+.card2-panel {
+  padding-bottom: 29px;
+}
+
+/*Mesenger*/
+*{margin: 0px; padding: 0px;}
+
+body{
+  background-image: url('../img/escheresque.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 4% 4%;
+}
+
+#content{
+  background-color: #FFF;
+  padding: 10px;
+}
+
+.foto-user{
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.chat-i{
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 80%;
+  background-color: #CCE2FB;
+  box-shadow: #333 0px 0px 1px;
+  display: table;
+  margin: 20px;
+}
+
+.chat-you{
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 80%;
+  background-color: #EAEAEA;
+  box-shadow: #333 0px 0px 1px;
+  display: table;
+  margin: 20px;
+}
+
+.emoticons-size{width: 20px; height: 20px;}
+
+.btn-success {
+  background-color: #0e0e0e;
+  border-color: #000000;
+}
+
+.btn-info {
+  border-color: #000;
+}
+
+.btn-info .badge {
+  color: #000;
+}
+
+.bemVindo{
+  background-image: url('../img/bem_vindo.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 4% 4%;
+}
